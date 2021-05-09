@@ -1,0 +1,6 @@
+{
+  "name": "meme-bot",
+  "language": "javascript",
+  "manager": "npm",
+  "prefix": "!"
+}
