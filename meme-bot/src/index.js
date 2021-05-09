@@ -6,7 +6,7 @@ const client = new Client();
 (async () => {
   client.commands = new Map();
   client.events = new Map();
-  client.prefix = config.prefix;
+  client.prefix = process.env.prefix;
   await registerCommands(client, '../commands');
   await registerEvents(client, '../events');
   await client.login(process.env.SLAPPEYTOKEN);
