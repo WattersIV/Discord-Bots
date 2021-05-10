@@ -2,7 +2,7 @@ const BaseCommand = require('../../utils/structures/BaseCommand');
 
 module.exports = class DaveCommand extends BaseCommand {
   constructor() {
-    super('dave', 'moody', 'greetings', []);
+    super('dave', 'moody', 'gamer', []);
   }
 
   run(client, message, args) {
